@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 @import "tailwindcss";
 @theme {
   --color-primary: #3ecf8e;
@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Bebas Neue", serif;
+  font-family: "Comic Neue", serif;
   background: #121212;
   margin: 0;
   padding: 0;
@@ -14,5 +14,5 @@ body {
 
 * {
   box-sizing: border-box;
-  color: white;
+  /* color: #fdfdfd; */
 }
