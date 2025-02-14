@@ -21,7 +21,7 @@ const Nav = () => {
                 return (
                   <ul key={index}>
                     <Link to={key}>
-                      <li className="capitalize text-base hover:text-[#01BB6E]">
+                      <li className="capitalize text-base text-[#fdfdfd] hover:text-[#01BB6E]">
                         {key}
                       </li>
                     </Link>
@@ -42,13 +42,13 @@ const Nav = () => {
             </div>
             <div className="flex gap-2 ">
               <div>
-                <h4 className="text-[12px] px-3 py-1 bg-[#242424] rounded-lg cursor-pointe">
+                <h4 className="text-[12px] px-3 py-1 text-[#fdfdfd] bg-[#242424] rounded-lg cursor-pointe">
                   Sign in
                 </h4>
               </div>
 
               <div>
-                <h4 className="text-[12px] px-3 py-1 rounded-lg bg-[#287050] cursor-pointer">
+                <h4 className="text-[12px] px-3 py-1 text-[#fdfdfd] rounded-lg bg-[#287050] cursor-pointer">
                   Start your project
                 </h4>
               </div>

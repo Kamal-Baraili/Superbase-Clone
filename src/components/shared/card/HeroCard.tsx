@@ -64,10 +64,10 @@ const HeroCard = (props: {
       <div className={`${props.ind === 0 ? "w-1/2" : ""}`}>
         <div className="flex gap-2 items-center">
           <img className="h-5 w-5" src={props.iconSrc} alt="card-icon" />
-          <h3 className="text-[15px]">{props.title}</h3>
+          <h3 className="text-[#fdfdfd] text-[15px]">{props.title}</h3>
         </div>
 
-        <p className="py-4 text-[13px] text-[#878787]">{props.paragraph}</p>
+        <p className="py-4 text-[13px]">{props.paragraph}</p>
 
         {props.ind === 0 && (
           <div className="mt-36">
@@ -77,7 +77,7 @@ const HeroCard = (props: {
                 src="./homepage/check-right-icon.svg"
                 alt="check"
               />
-              <h3 className="text-sm">100% portable</h3>
+              <h3 className="text-[#fdfdfd] text-sm">100% portable</h3>
             </div>
             <div className="flex gap-1">
               <img
@@ -85,7 +85,10 @@ const HeroCard = (props: {
                 src="./homepage/check-right-icon.svg"
                 alt="check"
               />
-              <h3 className="text-sm"> Built-in Auth with RLS</h3>
+              <h3 className="text-[#fdfdfd] text-sm">
+                {" "}
+                Built-in Auth with RLS
+              </h3>
             </div>
             <div className="flex gap-1">
               <img
@@ -93,7 +96,7 @@ const HeroCard = (props: {
                 src="./homepage/check-right-icon.svg"
                 alt="check"
               />
-              <h3 className="text-sm">Easy to extend</h3>
+              <h3 className="text-[#fdfdfd] text-sm">Easy to extend</h3>
             </div>
           </div>
         )}

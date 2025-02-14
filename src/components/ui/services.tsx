@@ -52,21 +52,19 @@ const Services = () => {
         ))}
       </div>
       <p className="w-11/12 mx-auto text-2xl">
-        Use one or all.{" "}
-        <span className="text-[#878787]">
-          Best of breed products. Integrated as a platform.
-        </span>
+        <span className="text-[#fdfdfd]"> Use one or all. </span>
+        Best of breed products. Integrated as a platform.
       </p>
 
-      <div className="flex justify-between items-center py-26 my-26">
+      <div className="flex justify-between items-center py-26 mt-26">
         <div className="w-9/12 h-[100px] mx-auto flex justify-between">
           <div>
-            <h3 className="text-4xl text-[#878787]">Use Supabase with</h3>
+            <h3 className="text-4xl">Use Supabase with</h3>
             <div
               className="transition-all ease-in-out duration-500"
               key={isLogoHover}
             >
-              <h3 className="text-4xl mt-4">
+              <h3 className="text-[#fdfdfd] text-4xl mt-4">
                 {(() => {
                   switch (isLogoHover) {
                     case 0:

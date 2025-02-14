@@ -21,21 +21,21 @@ const Hero = () => {
       <div className="h-[80vh]">
         <div className="w-11/12 mx-auto mt-10">
           <div className="w-1/2 mx-auto h-full">
-            <h1 className="text-6xl px-2 pt-28 text-center">
+            <h1 className="text-[#fdfdfd] text-6xl px-2 pt-28 text-center">
               Build in a weekend{" "}
               <span className="text-primary">Scale to millions</span>
             </h1>
-            <p className="text-lg text-center px-4 pt-8">
+            <p className="text-[#fdfdfd] text-lg text-center px-4 pt-8">
               Supabase is an open source Firebase alternative. Start your
               project with a Postgres database, Authentication, instant APIs,
               Edge Functions, Realtime subscriptions, Storage, and Vector
               embeddings.
             </p>
             <div className="pt-10 flex gap-2.5 justify-center">
-              <button className="bg-[#287050] px-4 py-2 text-sm rounded-md">
+              <button className="text-[#fdfdfd] bg-[#287050] px-4 py-2 text-sm rounded-md">
                 Start your project
               </button>
-              <button className="bg-[#242424] px-4 py-2 text-sm rounded-md">
+              <button className="text-[#fdfdfd] bg-[#242424] px-4 py-2 text-sm rounded-md">
                 Request a demo
               </button>
             </div>
