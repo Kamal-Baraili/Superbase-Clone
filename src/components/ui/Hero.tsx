@@ -18,7 +18,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="h-screen">
+      <div className="h-[80vh]">
         <div className="w-11/12 mx-auto mt-10">
           <div className="w-1/2 mx-auto h-full">
             <h1 className="text-6xl px-2 pt-28 text-center">
