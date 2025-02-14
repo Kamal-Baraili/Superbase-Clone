@@ -10,7 +10,6 @@ export const HeroLogos = [
   "/homepage/gopuff.svg",
   "/homepage/humata.svg",
   "/homepage/krea.svg",
-  "/homepage/langchain.svg",
   "/homepage/loops.svg",
   "/homepage/mobbin.svg",
   "/homepage/mozilla.svg",

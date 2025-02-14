@@ -1,4 +1,21 @@
+import StoriesCard from "../shared/card/storiesCard";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+
 const Stories = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 8000,
+    autoplaySpeed: 8000,
+    pauseOnHover: true,
+    cssEase: "linear",
+  };
+
   return (
     <>
       <div className="pt-20 pb-8">
@@ -26,6 +43,14 @@ const Stories = () => {
               </h4>
             </div>
           </div>
+        </div>
+
+        <div className="mt-10">
+          <Slider {...settings}>
+            <StoriesCard />
+            <StoriesCard />
+            <StoriesCard />
+          </Slider>
         </div>
       </div>
     </>
