@@ -87,3 +87,49 @@ export const ServicesData = [
   "./homepage/nuxt-icon.svg",
   "./homepage/refine-icon.svg",
 ];
+
+export const TempCardData = [
+  {
+    img: [
+      "./homepage/nextjs-icon.svg",
+      "./homepage/stripe-icon.svg",
+      "./homepage/triangle-icon.svg",
+    ],
+    title: "Stripe Subscriptions Starter",
+    desc: "The all-in-one subscription starter kit for high-performance SaaS applications, powered by Stripe, Supabase, and Vercel.",
+  },
+
+  {
+    img: ["./homepage/nextjs-icon.svg", "./homepage/triangle-icon.svg"],
+    title: "Next.js Starter",
+    desc: "A Next.js App Router template configured with cookie-based auth using Supabase, TypeScript and Tailwind CSS.",
+  },
+
+  {
+    img: [
+      "./homepage/nextjs-icon.svg",
+      "./homepage/chatgpt-icon.svg",
+      "./homepage/triangle-icon.svg",
+    ],
+    title: "AI Chatbot",
+    desc: "An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Supabase.",
+  },
+
+  {
+    img: ["./homepage/langchain-icon.svg", "./homepage/nextjs-icon.svg"],
+    title: "LangChain + Next.js Starter",
+    desc: "Starter template and example use-cases for LangChain projects in Next.js, including chat, agents, and retrieval.",
+  },
+
+  {
+    img: ["./homepage/flutter-icon.svg"],
+    title: "Flutter User Management",
+    desc: "Get started with Supabase and Flutter by building a user management app with auth, file storage, and database.",
+  },
+
+  {
+    img: ["./homepage/expo-icon.svg"],
+    title: "Expo React Native Starter",
+    desc: "An extended version of create-t3-turbo implementing authentication on both the web and mobile applications.",
+  },
+];

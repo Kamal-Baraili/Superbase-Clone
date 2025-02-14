@@ -103,7 +103,7 @@ const Services = () => {
                 onMouseEnter={() => setLogoHover(index + 1)}
                 onMouseLeave={() => setLogoHover(0)}
                 key={index}
-                className="p-2 border border-black hover:border-white cursor-pointer rounded-xl opacity-70 hover:opacity-100 transition-all ease-in-out duration-300"
+                className="p-2 border border-black hover:border-white cursor-pointer rounded-xl opacity-70 hover:opacity-100 transition ease-in-out duration-300"
               >
                 <img className="h-10 w-10" src={key} alt="services-logo" />
               </div>

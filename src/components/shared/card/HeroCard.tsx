@@ -1,58 +1,6 @@
-import {
-  ReactElement,
-  JSXElementConstructor,
-  ReactNode,
-  ReactPortal,
-  useState,
-} from "react";
+import { useState } from "react";
 
-const HeroCard = (props: {
-  ind: number;
-  iconSrc: string | undefined;
-  title:
-    | string
-    | number
-    | bigint
-    | boolean
-    | ReactElement<unknown, string | JSXElementConstructor<any>>
-    | Iterable<ReactNode>
-    | ReactPortal
-    | Promise<
-        | string
-        | number
-        | bigint
-        | boolean
-        | ReactPortal
-        | ReactElement<unknown, string | JSXElementConstructor<any>>
-        | Iterable<ReactNode>
-        | null
-        | undefined
-      >
-    | null
-    | undefined;
-  paragraph:
-    | string
-    | number
-    | bigint
-    | boolean
-    | ReactElement<unknown, string | JSXElementConstructor<any>>
-    | Iterable<ReactNode>
-    | ReactPortal
-    | Promise<
-        | string
-        | number
-        | bigint
-        | boolean
-        | ReactPortal
-        | ReactElement<unknown, string | JSXElementConstructor<any>>
-        | Iterable<ReactNode>
-        | null
-        | undefined
-      >
-    | null
-    | undefined;
-  cardImage: string | undefined;
-}) => {
+const HeroCard = (props: any) => {
   const [isHover, setHover] = useState(false);
 
   return (
@@ -103,7 +51,7 @@ const HeroCard = (props: {
       </div>
       <div className={`${props.ind === 0 ? "w-1/2 p-6 py-18 m-0" : "mt-5"}`}>
         <img
-          className={`h-48 w-full ${
+          className={`h-48 w-full transition ease-in-out duration-300 opacity-80 ${
             props.ind === 0 ? "object-cover" : "object-contain"
           } ${isHover && "rotate-180"}`}
           src={props.cardImage}
