@@ -2,6 +2,7 @@ import StoriesCard from "../shared/card/storiesCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { StoriesCardData } from "../../db/mockdata";
 
 const Stories = () => {
   var settings = {
@@ -10,8 +11,8 @@ const Stories = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 8000,
-    autoplaySpeed: 8000,
+    speed: 15000,
+    autoplaySpeed: 15000,
     pauseOnHover: true,
     cssEase: "linear",
   };
@@ -47,9 +48,14 @@ const Stories = () => {
 
         <div className="mt-10">
           <Slider {...settings}>
-            <StoriesCard />
-            <StoriesCard />
-            <StoriesCard />
+            {StoriesCardData.map((key) => (
+              <StoriesCard
+                mainImg={key.mainImg}
+                paragraph={key.paragraph}
+                img1={key.img1}
+                img2={key.img2}
+              />
+            ))}
           </Slider>
         </div>
       </div>

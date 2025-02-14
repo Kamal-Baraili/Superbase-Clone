@@ -26,10 +26,8 @@ const ExampleTemplates = () => {
           </div>
         </div>
         <div className="pt-10 px-20 grid grid-cols-3 gap-5">
-          {TempCardData.map((key, index) => (
-            <div key={index}>
-              <TempCard img={key.img} title={key.title} desc={key.desc} />
-            </div>
+          {TempCardData.map((key) => (
+            <TempCard img={key.img} title={key.title} desc={key.desc} />
           ))}
         </div>
       </div>

@@ -132,3 +132,29 @@ export const TempCardData = [
     desc: "An extended version of create-t3-turbo implementing authentication on both the web and mobile applications.",
   },
 ];
+
+export const StoriesCardData = [
+  {
+    mainImg: "./homepage/maergo.png",
+    paragraph:
+      "Maergo's Express Delivery: How Supabase Helped Achieve Scalability, Speed, and Cost Saving",
+    img1: "./homepage/1password.svg",
+    img2: "././homepage/mozilla.svg",
+  },
+
+  {
+    mainImg: "./homepage/maergo.png",
+    paragraph:
+      "Bootstrapped founder builds an AI app with Supabase and scales to $1M in 5 months.",
+    img1: "./homepage/1password.svg",
+    img2: "././homepage/mozilla.svg",
+  },
+
+  {
+    mainImg: "./homepage/maergo.png",
+    paragraph:
+      "Scaling securely: one million users in 7 months protected with Supabase Auth",
+    img1: "./homepage/1password.svg",
+    img2: "././homepage/mozilla.svg",
+  },
+];
