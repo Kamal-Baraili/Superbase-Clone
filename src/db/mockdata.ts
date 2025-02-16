@@ -1,7 +1,3 @@
-const Navmenus = ["product", "developers", "enterprise", "blog"];
-
-export default Navmenus;
-
 export const HeroLogos = [
   "/homepage/1password.svg",
   "/homepage/betashares.svg",

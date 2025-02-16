@@ -15,6 +15,7 @@ const Stories = () => {
     autoplaySpeed: 15000,
     pauseOnHover: true,
     cssEase: "linear",
+    arrows: false,
   };
 
   return (
