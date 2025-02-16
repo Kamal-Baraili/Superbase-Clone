@@ -18,7 +18,7 @@ const ExampleTemplates = () => {
             <button className="flex gap-2 items-center text-[#fdfdfd] bg-[#242424] px-4 py-2 text-sm rounded-lg">
               <img
                 className="h-5 w-5"
-                src="/github-logo.svg"
+                src="/github-icon.svg"
                 alt="github-logo"
               />
               Official Github Library

@@ -35,7 +35,7 @@ const Nav = () => {
             <div className="flex gap-1 items-center rounded-lg hover:bg-[#292929] px-3 py-1 cursor-pointer border border-[#292929] hover:border-zinc-200">
               <img
                 className="h-5 w-5"
-                src="/github-logo.svg"
+                src="/github-icon.svg"
                 alt="github-logo"
               />
               <h5 className="text-[12px]">77.2k</h5>
