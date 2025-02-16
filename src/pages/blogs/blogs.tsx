@@ -1,7 +1,9 @@
+import BlogHero from "../../components/ui/blogHero";
+
 const Blog = () => {
   return (
     <>
-      <div></div>
+      <BlogHero />
     </>
   );
 };
