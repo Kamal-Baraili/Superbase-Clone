@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <>
-      <div className="py-2 border-b border-b-zinc-600">
+      <div className="w-full py-2 bg-[#121212] border-b border-b-zinc-700 sticky inset-0 z-50">
         <div className="w-11/12 mx-auto flex justify-between items-center">
           <div className="flex gap-10">
             <div className="h-12 w-32 flex items-center">
