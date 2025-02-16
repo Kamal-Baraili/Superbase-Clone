@@ -91,6 +91,57 @@ const Reviews = () => {
         </div>
         <div className="w-full bg-radial from-transparent to-[#121212] h-[500px] absolute top-42 left-0"></div>
       </div>
+
+      <div className="my-40">
+        <div className="flex flex-col items-center">
+          <h3 className="text-3xl mb-10">
+            Build in a weekend,{" "}
+            <span className="text-[#fdfdfd] ">Join the community</span>{" "}
+          </h3>
+          <div className="flex gap-2">
+            <button className="flex gap-2 items-center text-[#fdfdfd] bg-[#287050] px-4 py-2 text-sm rounded-lg">
+              <span>Start a project</span>
+            </button>
+            <button className="flex gap-2 items-center text-[#fdfdfd] bg-[#242424] px-4 py-2 text-sm rounded-lg">
+              <span>Request a Demo</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex gap-20 justify-center items-center">
+        <p className="text-[#fdfdfd] text-sm">
+          We protect your data.{" "}
+          <span className="text-primary">More on Security</span>
+        </p>
+
+        <div className="flex ">
+          <div className="flex gap-8 text-[15px]">
+            <div className="flex gap-1 items-center">
+              <img
+                className="w-5 h-5"
+                src="./homepage/check-right-icon.svg"
+                alt=""
+              />
+              <p>
+                <span className="text-[#fdfdfd]"> SOC2 Type 2</span> Certified
+              </p>
+            </div>
+
+            <div className="flex gap-1 items-center">
+              <img
+                className="w-5 h-5"
+                src="./homepage/check-right-icon.svg"
+                alt=""
+              />
+              <p>
+                <span className="text-[#fdfdfd]"> HIPAA Compliant</span>{" "}
+                Compliant
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
