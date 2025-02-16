@@ -1,6 +1,40 @@
 const Footer = () => {
   return (
     <>
+      <div className="flex gap-20 justify-center items-center">
+        <p className="text-[#fdfdfd] text-sm">
+          We protect your data.{" "}
+          <span className="text-primary">More on Security</span>
+        </p>
+
+        <div className="flex ">
+          <div className="flex gap-8 text-[15px]">
+            <div className="flex gap-1 items-center">
+              <img
+                className="w-5 h-5"
+                src="./homepage/check-right-icon.svg"
+                alt=""
+              />
+              <p>
+                <span className="text-[#fdfdfd]"> SOC2 Type 2</span> Certified
+              </p>
+            </div>
+
+            <div className="flex gap-1 items-center">
+              <img
+                className="w-5 h-5"
+                src="./homepage/check-right-icon.svg"
+                alt=""
+              />
+              <p>
+                <span className="text-[#fdfdfd]"> HIPAA Compliant</span>{" "}
+                Compliant
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div>
         <div className="w-full mx-auto my-10 py-30 px-24 border-y border-y-zinc-700">
           <div className="w-full grid grid-cols-6 gap-8">
