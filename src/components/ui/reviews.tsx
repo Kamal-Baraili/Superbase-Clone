@@ -2,6 +2,7 @@ import ReviewCard from "../shared/card/reviewCard";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import { ReviewData } from "../../db/mockdata";
 
 const Reviews = () => {
   var settings = {
@@ -48,48 +49,23 @@ const Reviews = () => {
 
         <div className="mt-6">
           <Slider {...settings}>
-            <div className="p-4">
-              <div>
-                <ReviewCard />
+            {ReviewData.map((key, index) => (
+              <div key={index} className="p-4">
+                <div>
+                  <ReviewCard
+                    imgTop={key.imgTop}
+                    usernameTop={key.usernameTop}
+                    reviewParagraphTop={key.reviewParagraphTop}
+                    imgBottom={key.imgBottom}
+                    usernameBottom={key.usernameBottom}
+                    reviewParagraphBottom={key.reviewParagraphBottom}
+                  />
+                </div>
               </div>
-
-              <div className="mt-6">
-                <ReviewCard />
-              </div>
-            </div>
-
-            <div className="p-4">
-              <div>
-                <ReviewCard />
-              </div>
-
-              <div className="mt-6">
-                <ReviewCard />
-              </div>
-            </div>
-
-            <div className="p-4">
-              <div>
-                <ReviewCard />
-              </div>
-
-              <div className="mt-6">
-                <ReviewCard />
-              </div>
-            </div>
-
-            <div className="p-4">
-              <div>
-                <ReviewCard />
-              </div>
-
-              <div className="mt-6">
-                <ReviewCard />
-              </div>
-            </div>
+            ))}
           </Slider>
         </div>
-        <div className="w-full bg-radial from-transparent to-[#121212] h-[500px] absolute top-42 left-0"></div>
+        <div className="w-full bg-radial from-transparent to-[#121212] h-[600px] absolute top-42 left-0"></div>
       </div>
 
       <div className="my-40">

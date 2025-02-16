@@ -154,3 +154,65 @@ export const StoriesCardData = [
     img2: "././homepage/mozilla.svg",
   },
 ];
+
+export const ReviewData = [
+  {
+    imgTop: "./homepage/review-img1.png",
+    usernameTop: "@PaoloRicciuti",
+    reviewParagraphTop:
+      "Using @supabase I'm really pleased on the power of postgres (and sql in general). Despite being a bit dubious about the whole backend as a service thing I have to say I really don't miss anything. The whole experience feel very robust and secure.",
+
+    imgBottom: "./homepage/review-img1.png",
+    usernameBottom: "@saxxone",
+    reviewParagraphBottom:
+      "@supabase is lit. It took me less than 10 minutes to setup, the DX is just amazing.",
+  },
+
+  {
+    imgTop: "./homepage/review-img1.png",
+    usernameTop: "@jperelli",
+    reviewParagraphTop:
+      "This weekend I made a personal record 🥇 on the less time spent creating an application with social login / permissions, database, cdn, infinite scaling, git push to deploy and for free. Thanks to @supabase and @vercel",
+
+    imgBottom: "./homepage/review-img1.png",
+    usernameBottom: "@KennethCassel",
+    reviewParagraphBottom:
+      "Badass! Supabase is amazing. literally saves our small team a whole engineer’s worth of work constantly. The founders and everyone I’ve chatted with at supabase are just awesome people as well :)",
+  },
+
+  {
+    imgTop: "./homepage/review-img1.png",
+    usernameTop: "@drewclemcr8",
+    reviewParagraphTop:
+      "Working on my next SaaS app and I want this to be my whole job because I'm just straight out vibing putting it together. @supabase and chill, if you will",
+
+    imgBottom: "./homepage/review-img1.png",
+    usernameBottom: "@CodiferousCoder",
+    reviewParagraphBottom:
+      "Working on my next SaaS app and I want this to be my whole job because I'm just straight out vibing putting it together. @supabase and chill, if you will",
+  },
+
+  {
+    imgTop: "./homepage/review-img1.png",
+    usernameTop: "@thatguy_tex",
+    reviewParagraphTop:
+      "Working with @supabase has been one of the best dev experiences I've had lately. Incredibly easy to set up, great documentation, and so many fewer hoops to jump through than the competition. I definitely plan to use it on any and all future projects.",
+
+    imgBottom: "./homepage/review-img1.png",
+    usernameBottom: "@lxoyeDesign",
+    reviewParagraphBottom:
+      "@supabase is just 🤯 Now I see why a lot of people love using it as a backend for their applications. I am really impressed with how easy it is to set up an Auth and then just code it together for the frontend. @IngoKpp now I see your joy with Supabase #coding #fullstackwebdev",
+  },
+
+  {
+    imgTop: "./homepage/review-img1.png",
+    usernameTop: "@justinjunodev",
+    reviewParagraphTop:
+      "Y'all @supabase + @nextjs is amazing! 🙌 Barely an hour into a proof-of-concept and already have most of the functionality in place. 🤯🤯🤯",
+
+    imgBottom: "./homepage/review-img1.png",
+    usernameBottom: "@BraydonCoyer",
+    reviewParagraphBottom:
+      "And thanks to @supabase, I was able to go from idea to launched feature in a matter of hours. Absolutely amazing!",
+  },
+];
