@@ -216,3 +216,183 @@ export const ReviewData = [
       "And thanks to @supabase, I was able to go from idea to launched feature in a matter of hours. Absolutely amazing!",
   },
 ];
+
+export const BlogTabs = [
+  "All",
+  "Product",
+  "Company",
+  "Postgress",
+  "Developers",
+  "Engineering",
+  "Launch Week",
+];
+
+export const BlogList = [
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Developers",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Launch Week",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Launch Week",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png", "./blogs/blog-image.png"],
+    blogType: "Postgress",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Engineering",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Company",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Product",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Launch Week",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Developers",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Launch Week",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Launch Week",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Postgress",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Engineering",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Company",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Product",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Launch Week",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Developers",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Launch Week",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Launch Week",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Postgress",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Engineering",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Company",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Product",
+    blogDate: "20 Dec 2024",
+  },
+
+  {
+    blogTitle: "Calendars in Postgres using Foreign Data Wrappers",
+    blogImg: ["./blogs/blog-image.png"],
+    blogType: "Launch Week",
+    blogDate: "20 Dec 2024",
+  },
+];
