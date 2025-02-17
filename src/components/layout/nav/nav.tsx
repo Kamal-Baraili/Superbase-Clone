@@ -123,7 +123,7 @@ const Nav = () => {
           </div>
         </div>
 
-        <div className="absolute top-18 left-52 z-20 transition cursor-pointer">
+        <div className="absolute top-10 left-52 z-60 transition cursor-pointer">
           {isProductHover && <ProductCard setProductHover={setProductHover} />}
           {isDeveloperHover && (
             <DeveloperCard setDeveloperHover={setDeveloperHover} />

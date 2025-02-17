@@ -8,9 +8,11 @@ const DeveloperCard: React.FC<DeveloperCard> = ({ setDeveloperHover }) => {
       <div
         onMouseEnter={() => setDeveloperHover(true)}
         onMouseLeave={() => setDeveloperHover(false)}
-        className="w-[700px] h-[300px] p-2 border border-zinc-700 rounded-2xl ease-in-out duration-1000"
+        className="pt-8"
       >
-        fasdfasd
+        <div className="w-[700px] h-[300px] bg-[#121212] p-2 border border-zinc-700 rounded-2xl ease-in-out duration-1000">
+          fasdfasd
+        </div>
       </div>
     </>
   );

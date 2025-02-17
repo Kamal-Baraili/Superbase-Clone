@@ -8,9 +8,11 @@ const ProductCard: React.FC<ProductCard> = ({ setProductHover }) => {
       <div
         onMouseEnter={() => setProductHover(true)}
         onMouseLeave={() => setProductHover(false)}
-        className="w-[500px] h-[300px] p-2 border border-zinc-700 rounded-2xl ease-in-out duration-1000"
+        className="pt-8"
       >
-        asdfsadfasdfsd
+        <div className="w-[500px] h-[300px] bg-[#121212] p-2 border border-zinc-700 rounded-2xl ease-in-out duration-1000">
+          asdfsadfasdfsd
+        </div>
       </div>
     </>
   );
