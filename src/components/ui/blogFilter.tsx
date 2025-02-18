@@ -11,6 +11,7 @@ interface BlogItem {
 const BlogFilter = () => {
   const [isTabActive, setTabActive] = useState(0);
   const [isBlogHoverIndex, setBlogHoverIndex] = useState<number | null>(null);
+  const [isFocus, setFocus] = useState(false);
   return (
     <>
       <div className="mb-30 border-t border-t-zinc-800">
@@ -32,7 +33,11 @@ const BlogFilter = () => {
               ))}
             </div>
             <div className="flex gap-4">
-              <div className="w-[300px] bg-[#171717] flex gap-3 items-center px-2 border border-zinc-600 rounded">
+              <div
+                className={`w-[300px] bg-[#171717] flex gap-3 items-center px-2 border ${
+                  isFocus ? "border-zinc-400" : "border-zinc-600"
+                } rounded`}
+              >
                 <img
                   className="opacity-90"
                   src="./blogs/search-icon.svg"
@@ -42,6 +47,8 @@ const BlogFilter = () => {
                   className="outline-none text-sm"
                   type="text"
                   placeholder="Search blog"
+                  onFocus={() => setFocus(true)}
+                  onBlur={() => setFocus(false)}
                 />
               </div>
 
